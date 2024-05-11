@@ -55,7 +55,7 @@ include = [
 ]
 
 [tool.cibuildwheel]
-skip = ["pp*", "*-musllinux_i686"]
+skip = ["*-musllinux_i686"]
 
 [tool.ruff]
 line-length = 120
