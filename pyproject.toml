@@ -55,10 +55,9 @@ include = [
 ]
 
 [tool.cibuildwheel]
-skip = [
-    "pp*",
-    "*musl*",
-]
+skip = ["pp*"]
+musllinux-x86_64-image = "musllinux_1_2"
+musllinux-i686-image = "musllinux_1_2"
 
 [tool.ruff]
 line-length = 120
